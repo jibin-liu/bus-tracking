@@ -1,0 +1,4 @@
+.ipynb_checkpoints
+*.zip
+myBus/*
+!myBus/myBus.py
