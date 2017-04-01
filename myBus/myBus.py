@@ -53,7 +53,7 @@ def construct_message(time, unit, direction):
 def url_query(state, city, line, stop, direction):
     """ construct the query for url based on provided bus information """
     # hard-coded for now
-    return "a=omnitrans&r=8&d=8_0_var1&s=5151"
+    return "a=omnitrans&r=8&s=5151"
 
 
 def get_next_bus(state, city, line, stop, direction):
